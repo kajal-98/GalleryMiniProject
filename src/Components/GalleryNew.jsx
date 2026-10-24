@@ -7,9 +7,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPowerOff } from "@fortawesome/free-solid-svg-icons";
 import { useInfiniteScroll } from "react-infinite-scroll-component";
 
-const PAGE_SIZE = 1;
+const PAGE_SIZE = 10;
 
-export function Gallery() {
+export function GalleryNew() {
   const [images, setImages] = useState([]);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);

@@ -12,6 +12,8 @@ export const Navbar = () => {
             <Link to="/gallery" style={{ marginRight: '10px', textDecoration: 'none', color: '#333' }}>Gallery</Link>
             <Link to="/about" style={{ textDecoration: 'none', color: '#333' }}>About</Link>
             <Link to="/add-items" style={{ textDecoration: 'none', color: '#333' }}>Add Items</Link>
+            <Link to="/gallery-new" style={{ textDecoration: 'none', color: '#333' }}>Gallery New</Link>
+            <Link to="/gallery-infinite-scroll" style={{ textDecoration: 'none', color: '#333' }}>Gallery Infinite Scroll</Link>
         </div>
     </nav>
     </>
