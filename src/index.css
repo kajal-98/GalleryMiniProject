@@ -1,0 +1,31 @@
+
+.toggle {
+  width: 60px;
+  height: 32px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s;
+   font-size: 22px;
+}
+
+.slider {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: white;
+  border-radius: 50%;
+  top: 4px;
+  left: 4px;
+  transition: transform 0.3s;
+}
+
+.toggle.active {
+  background-color: #22c55e;
+}
+
+.toggle.active .slider {
+  transform: translateX(28px);
+}
